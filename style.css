@@ -14,7 +14,7 @@ body {
 .main {
     background: #F3F3F3;
     max-width: 1110px;
-    height: 615px;
+    height: 100vh;
     margin: 0 auto;
     padding: 100px 50px;
 }
@@ -97,6 +97,10 @@ h2 {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
     font-size: 14px;
     font-weight: 700;
     color: white;
